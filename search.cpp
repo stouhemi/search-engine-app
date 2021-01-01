@@ -29,6 +29,6 @@ int main(){
         // Experimental
         f = binary_search(t, t+N, x);
         
-        cout << true << '\n';
+        cout << f << '\n';
     }
 }
