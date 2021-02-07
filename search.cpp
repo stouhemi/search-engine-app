@@ -11,8 +11,8 @@ int main(){
         cin >> t[i];
     }
 
-    // Experimental
-    //sort(t, t+N);
+    Experimental
+    sort(t, t+N);
 
     freopen("IN.txt", "r", stdin);
     freopen("RES.txt", "w", stdout);
