@@ -11,7 +11,7 @@ int main(){
         cin >> t[i];
     }
 
-    Experimental
+    
     sort(t, t+N);
 
     freopen("IN.txt", "r", stdin);
@@ -24,9 +24,6 @@ int main(){
 
         // searching for integer x in array t
         bool f = false;
-        // Current method
-        
-        //Experimental
         f = binary_search(t, t+N, x);
         
         cout << f << '\n';
